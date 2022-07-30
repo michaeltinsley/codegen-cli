@@ -1,1 +1,1 @@
-from .main import app as CodegenApp
+from .main import app as CodegenApp  # noqa: F401
