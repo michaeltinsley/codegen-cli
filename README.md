@@ -7,7 +7,7 @@
 
 ---
 
-A small CLI tool for generating code from a text prompt.
+A small command-line tool for generating code from a text prompt.
 
 Built more to play with [Typer](https://typer.tiangolo.com/) and
-[Huggingface Transformers](https://huggingface.co/transformers/) than to be a fully-functional CLI tool.
+[Huggingface Transformers](https://huggingface.co/transformers/) than to be a fully-functional command-line tool.
