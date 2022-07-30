@@ -1,8 +1,9 @@
 import typer
-from languages import Language
-from model import Model
 from rich.console import Console
 from rich.syntax import Syntax
+
+from .languages import Language
+from .model import Model
 
 app = typer.Typer()
 
@@ -11,7 +12,7 @@ app = typer.Typer()
 def main(
     prompt: str,
     language: Language = typer.Option(Language.python, case_sensitive=True),
-) -> str:
+) -> None:
     """
     Generate code from a Huggingface model.
 
