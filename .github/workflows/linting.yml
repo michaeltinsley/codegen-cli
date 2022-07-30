@@ -27,3 +27,6 @@ jobs:
           DEFAULT_BRANCH: main
           SUPPRESS_POSSUM: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: /
+          PYTHON_ISORT_CONFIG_FILE: pyproject.toml
+          PYTHON_PYLINT_CONFIG_FILE: pyproject.toml
