@@ -1,1 +1,1 @@
-from .main import app as codegen_app
+from .main import app as CodegenApp

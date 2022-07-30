@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "codegen-cli"
+name = "codegen"
 version = "0.1.0"
 description = ""
 authors = ["Michael Tinsley <michaeltinsley@outlook.com>"]
