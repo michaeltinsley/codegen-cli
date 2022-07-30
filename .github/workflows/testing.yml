@@ -10,8 +10,10 @@ on:
       - main
 
 jobs:
-  test:
+  build:
+    name: Test Code Base
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
