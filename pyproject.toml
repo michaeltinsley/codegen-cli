@@ -17,7 +17,7 @@ typer = "^0.6.1"
 transformers = "^4.22.1"
 rich = "^12.5.1"
 shellingham = "^1.5.0"
-torch = "^1.12.1"
+torch = "^1.13.0"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.10.1"
